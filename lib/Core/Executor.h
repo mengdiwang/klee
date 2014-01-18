@@ -84,7 +84,9 @@ class Executor : public Interpreter {
   friend class WeightedRandomSearcher;
   friend class SpecialFunctionHandler;
   friend class StatsTracker;
-
+    //wmd
+    friend class CESearcher;
+    //~
 public:
   class Timer {
   public:
